@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="frontend.FrmKategori">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="6" column-count="4" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="15" left="15" bottom="15" right="15"/>
+    <constraints>
+      <xy x="21" y="20" width="531" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="973db" class="javax.swing.JLabel" binding="idKategori">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="4" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="ID Kategori"/>
+        </properties>
+      </component>
+      <component id="d0701" class="javax.swing.JLabel" binding="namaKategori">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Nama Kategori"/>
+        </properties>
+      </component>
+      <component id="2784b" class="javax.swing.JLabel" binding="keterangan">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="16"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Keterangan"/>
+        </properties>
+      </component>
+      <component id="a7e3f" class="javax.swing.JTextField" binding="txtIdKategori">
+        <constraints>
+          <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="-1"/>
+          </grid>
+        </constraints>
+        <properties>
+          <enabled value="false"/>
+        </properties>
+      </component>
+      <component id="f515a" class="javax.swing.JTextField" binding="txtNama">
+        <constraints>
+          <grid row="1" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="19dab" class="javax.swing.JTextField" binding="txtKeterangan">
+        <constraints>
+          <grid row="2" column="1" row-span="1" col-span="3" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="-1"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="bff1d" class="javax.swing.JButton" binding="btnSimpan">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Simpan"/>
+        </properties>
+      </component>
+      <component id="cdb9e" class="javax.swing.JButton" binding="btnHapus">
+        <constraints>
+          <grid row="4" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="119" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Hapus"/>
+        </properties>
+      </component>
+      <component id="91f70" class="javax.swing.JButton" binding="btnTambahBaru">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="1" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="100" height="30"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="Tambah Baru"/>
+        </properties>
+      </component>
+      <component id="fde78" class="javax.swing.JTextField" binding="txtCari">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="170" height="30"/>
+          </grid>
+        </constraints>
+        <properties/>
+      </component>
+      <component id="8f87a" class="javax.swing.JButton" binding="btnCari">
+        <constraints>
+          <grid row="4" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="Cari"/>
+        </properties>
+      </component>
+      <scrollpane id="c3f85">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="4" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="286f2" class="javax.swing.JTable" binding="tblKategori">
+            <constraints/>
+            <properties/>
+          </component>
+        </children>
+      </scrollpane>
+    </children>
+  </grid>
+</form>
